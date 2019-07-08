@@ -53,17 +53,21 @@ sensor:
         name: ${disp_name} CT1 Amps
         id: ct1Amps
       gain_voltage: 42620
+# Voltage using a 9VAC power transformer
       gain_ct: 15420
+# Current calibration using a 50A/1V SCT-013-050
     phase_b:
       current:
         name: ${disp_name} CT2 Amps
         id: ct2Amps
-      gain_ct: 27898
+      gain_ct: 32498
+# Current calibration using a 100A/50ma SCT-013-000
     phase_c:
       current:
         name: ${disp_name} CT3 Amps
         id: ct3Amps
-      gain_ct: 14898
+      gain_ct: 32498
+# Current calibration using a 100A/50ma SCT-013-000
     frequency:
       name: ${disp_name} Freq A
     line_frequency: 60Hz
@@ -81,16 +85,19 @@ sensor:
         id: ct4Amps
       gain_voltage: 42620
       gain_ct: 32498
+# Current calibration using a 100A/50ma SCT-013-000
     phase_b:
       current:
         name: ${disp_name} CT5 Amps
         id: ct5Amps
-      gain_ct: 15498
+      gain_ct: 32498
+# Current calibration using a 100A/50ma SCT-013-000      
     phase_c:
       current:
         name: ${disp_name} CT6 Amps
         id: ct6Amps
       gain_ct: 9210
+# Current calibration using a 30A/1V SCT-013-030
     frequency:
       name: ${disp_name} Freq B
     line_frequency: 60Hz
