@@ -1,7 +1,7 @@
 # digiNRG - Whole Home Power Monitoring with ESPHome
-Whole home power monitoring and additional circuits with ESPHome and Home Assistant.  Other home automations can also use this implementation as well with the MQTT option.
+Whole home power monitoring and additional power circuits with ESPHome and Home Assistant. This implementation utilizes the ATM90E32AS based board from CircuitSetup. Other home automation software supporting MQTT can also use this integration.
 
-Video Demostration and Setup - 
+Video Demostration and Setup - https://youtu.be/BOgy6QbfeZk
 
 ### Parts List
 [Split Core Current Transformer 100A/50ma](https://amzn.to/2JtuRSt)  
