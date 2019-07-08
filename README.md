@@ -19,7 +19,6 @@ If you have any to add or changes to these, pleast let us know! These are based 
 digi_nrg_2chan32.yaml - Included in this repo   
 digi_nrg_6chan32.yaml - Included in this repo  
 
-### Wiring Diagram
 ![alt text](https://raw.githubusercontent.com/digiblur/digiNRG_ESPHome/master/jpgs/2chan_board.jpg "2 Channel")  
 ![alt text](https://raw.githubusercontent.com/digiblur/digiNRG_ESPHome/master/jpgs/6chan_board.jpg "6 Channel")  
 ![alt text](https://raw.githubusercontent.com/digiblur/digiNRG_ESPHome/master/jpgs/sct_100a.jpg "SCT")  
