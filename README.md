@@ -15,6 +15,10 @@ If you have any to add or changes to these, pleast let us know! These are based 
 [SCT-013-050 50A/1V](https://amzn.to/2XzkyB3) - 15420  
 [SCT-013-030 30A/1V](https://amzn.to/2FZLdB9) - 9210  
 
+### Sample ESPHome YAML Configurations
+digi_nrg_2chan32.yaml - Included in this repo 
+digi_nrg_6chan32.yaml - Included in this repo
+
 ### Wiring Diagram
 ![alt text](https://raw.githubusercontent.com/digiblur/digiNRG_ESPHome/master/jpgs/2chan_board.jpg "2 Channel")  
 ![alt text](https://raw.githubusercontent.com/digiblur/digiNRG_ESPHome/master/jpgs/6chan_board.jpg "6 Channel")  
