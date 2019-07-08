@@ -5,19 +5,18 @@ Video Demostration and Setup -
 
 ### Parts List
 [Split Core Current Transformer 100A/50ma](https://amzn.to/2JtuRSt)  
-[ESP32 NodeMCU](https://amzn.to/2XvEBAs)
-[CircuitSetup 6 Channel or 2 Channel Board](https://circuitsetup.us/index.php/product-category/power-management/)
+[ESP32 NodeMCU](https://amzn.to/2XvEBAs)  
+[CircuitSetup 6 Channel or 2 Channel Board](https://circuitsetup.us/index.php/product-category/power-management/)  
 [9VAC Power Supply](https://amzn.to/2Jt4uMh)
 
 ### Sample Calibrations for SCT Sizes
-If you have any to add or changes to these, pleast let us know! These are based on the 6 channel board with 1X gain.
-[SCT-013-000 100A/50ma](https://amzn.to/2JtuRSt) - 32498
-[SCT-013-050 50A/1V](https://amzn.to/2XzkyB3) - 15420
-[SCT-013-030 30A/1V](https://amzn.to/2FZLdB9) - 9210
+If you have any to add or changes to these, pleast let us know! These are based on the 6 channel board with 1X gain.  
+[SCT-013-000 100A/50ma](https://amzn.to/2JtuRSt) - 32498  
+[SCT-013-050 50A/1V](https://amzn.to/2XzkyB3) - 15420  
+[SCT-013-030 30A/1V](https://amzn.to/2FZLdB9) - 9210  
 
 ### Wiring Diagram
-![alt text](https://raw.githubusercontent.com/digiblur/digiNRG_ESPHome/master/jpgs/2chan_board.jpg "2 Channel")
-![alt text](https://raw.githubusercontent.com/digiblur/digiNRG_ESPHome/master/jpgs/6chan_board.jpg "6 Channel")
-![alt text](https://raw.githubusercontent.com/digiblur/digiNRG_ESPHome/master/jpgs/sct_100a.jpg "SCT")
-
+![alt text](https://raw.githubusercontent.com/digiblur/digiNRG_ESPHome/master/jpgs/2chan_board.jpg "2 Channel")  
+![alt text](https://raw.githubusercontent.com/digiblur/digiNRG_ESPHome/master/jpgs/6chan_board.jpg "6 Channel")  
+![alt text](https://raw.githubusercontent.com/digiblur/digiNRG_ESPHome/master/jpgs/sct_100a.jpg "SCT")  
 
