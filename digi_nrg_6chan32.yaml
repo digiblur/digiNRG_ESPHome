@@ -96,7 +96,7 @@ sensor:
       current:
         name: ${disp_name} CT6 Amps
         id: ct6Amps
-      gain_ct: 9210
+      gain_ct: 8650
 # Current calibration using a 30A/1V SCT-013-030
     frequency:
       name: ${disp_name} Freq B
