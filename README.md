@@ -3,6 +3,8 @@ Whole home power monitoring and additional power circuits with ESPHome and Home 
 
 Video Demostration and Setup - https://youtu.be/BOgy6QbfeZk
 
+Update 2019/08/24 - For v1.2 of the board your voltage calibration will be high, >64,000. This is normal. 
+
 ### Parts List
 [Split Core Current Transformer 100A/50ma](https://amzn.to/2JtuRSt)  
 [ESP32 NodeMCU](https://amzn.to/2XvEBAs)  
