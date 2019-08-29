@@ -49,11 +49,14 @@ sensor:
         name: ${disp_name} Volts A
         id: ic1Volts
         accuracy_decimals: 1
+#        filters:
+#          - multiply: 2.0
       current:
         name: ${disp_name} CT1 Amps
         id: ct1Amps
       gain_voltage: 42620
 # Voltage using a 9VAC power transformer
+# Note: If you can not get the voltage correct with the highest gain of 65535, uncomment the 2.0 multiply filter above and lower the gain as needed
       gain_ct: 15420
 # Current calibration using a 50A/1V SCT-013-050
     phase_b:
