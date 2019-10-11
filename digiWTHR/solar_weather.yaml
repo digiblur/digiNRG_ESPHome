@@ -1,0 +1,72 @@
+substitutions:
+  display_name: digiWTHR
+
+esphome:
+  name: solar_weather
+  platform: ESP8266
+#  board: d1_mini_pro
+  board: d1_mini
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_pass
+  manual_ip:
+    static_ip: !secret ip_solarweather
+    gateway: !secret ip_gateway
+    subnet: !secret ip_subnet
+    dns1: !secret ip_dns1
+
+#api:
+
+# Enable logging
+logger:
+
+mqtt:
+  broker: !secret mqtt_broker
+  username: !secret mqtt_user
+  password: !secret mqtt_pass
+  birth_message:
+    topic: solarsensor/birthdisable
+    payload: disable
+  will_message:
+    topic: solarsensor/willdisable
+    payload: disable
+
+ota:
+
+i2c:
+ - id: ic_1
+   sda: 4
+   scl: 5
+   scan: false
+
+sensor:
+  - platform: bme280
+    temperature:
+      name: ${display_name} Temp
+      oversampling: 4x
+    pressure:
+      name: ${display_name} Pres
+      oversampling: 4x
+    humidity:
+      name: ${display_name} Humi
+      oversampling: 4x
+    address: 0x76
+    update_interval: 30s
+
+  - platform: bh1750
+    name: ${display_name} Lux
+    address: 0x23
+    update_interval: 25s
+
+  - platform: adc
+    pin: A0
+    name: ${display_name} Battery
+    update_interval: 35s
+    filters:
+      - multiply: 5.1923
+
+
+deep_sleep:
+  run_duration: 40s
+  sleep_duration: 4min
