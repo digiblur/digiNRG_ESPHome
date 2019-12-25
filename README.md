@@ -19,7 +19,8 @@ If you have any to add or changes to these, pleast let us know! These are based 
 
 ### Sample ESPHome YAML Configurations
 digi_nrg_2chan32.yaml - Included in this repo   
-digi_nrg_6chan32.yaml - Included in this repo  
+digi_nrg_6chan32.yaml - Included in this repo 
+Note: If you elected to add expansion boards, refer to the two physical jumpers on the top of each expansion board. They will identify each of the CS_PINs you will need to include in the 6 channel example above. You can then replicate the code and change the CS_Pin and CT identifiers.
 
 ![alt text](https://raw.githubusercontent.com/digiblur/digiNRG_ESPHome/master/jpgs/2chan_board.jpg "2 Channel")  
 ![alt text](https://raw.githubusercontent.com/digiblur/digiNRG_ESPHome/master/jpgs/6chan_board.jpg "6 Channel")  
