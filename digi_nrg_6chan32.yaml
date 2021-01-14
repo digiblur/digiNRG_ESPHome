@@ -44,6 +44,8 @@ sensor:
     update_interval: 60s
   - platform: atm90e32
     cs_pin: 5
+    # Note: if you are using an expansion board, refer to the top physical jumper pins to determine the correct cs_pin numbers.
+    # Replicate the platform: atm90e3 section, change the cs_pin and finally update the CT#s for your expansion boaard. 
     phase_a:
       voltage:
         name: ${disp_name} Volts A
