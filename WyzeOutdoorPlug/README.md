@@ -2,4 +2,4 @@
 
 [Wyze Outdoor Plug](https://amzn.to/3ffJTg4)  
 
-[More info can be found here] - (https://digiblur.com)  
+[More info can be found here](https://digiblur.com)  
