@@ -17,6 +17,8 @@ If you have any to add or changes to these, pleast let us know! These are based 
 [SCT-013-050 50A/1V](https://amzn.to/2XzkyB3) - 15420  
 [SCT-013-030 30A/1V](https://amzn.to/2FZLdB9) - 9210  
 
+[SCT-024TSL-B27 200A/100mA](https://circuitsetup.us/product/200a-100ma-current-transformer-yhdc-sct-024-24mm/) - 12597 \*(2 chan board, gain_pga = 4X)
+
 ### Sample ESPHome YAML Configurations
 digi_nrg_2chan32.yaml - Included in this repo   
 digi_nrg_6chan32.yaml - Included in this repo 
