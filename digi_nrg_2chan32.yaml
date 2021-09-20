@@ -1,5 +1,5 @@
 substitutions:
-# Change the disp_name to something you want  
+# Change the disp_name to something you want
   disp_name: 2C
 # Interval of how often the power is updated
   update_time: 10s
@@ -8,7 +8,7 @@ esphome:
   name: digi_nrg_2chan32
   platform: ESP32
   board: nodemcu-32s
-   
+
 wifi:
   ssid: !secret wifi_ssid
   password: !secret wifi_pass
@@ -27,7 +27,7 @@ mqtt:
 logger:
 
 #api:
-  
+
 ota:
 
 web_server:
@@ -55,8 +55,8 @@ sensor:
         name: ${disp_name} CT1 Watts
         accuracy_decimals: 1
         id: "ct1Watts"
-# Voltage using a 12VAC power transformer
-      gain_voltage: 32428
+# Voltage using a 9VAC power transformer
+      gain_voltage: 3900
 # Current calibration using a 100A/50ma SCT-013-000
       gain_ct: 24131
     phase_c:
@@ -70,7 +70,7 @@ sensor:
 # If the wattage is backwards due to the phase 180 degrees from the clamp direction
         filters:
           - multiply: -1.0
-      gain_voltage: 32428
+      gain_voltage: 3900
       gain_ct: 24131
     frequency:
       name: ${disp_name} Freq
@@ -83,7 +83,7 @@ sensor:
     lambda: return id(ct1Amps).state + id(ct2Amps).state;
     accuracy_decimals: 2
     unit_of_measurement: A
-    update_interval: ${update_time}  
+    update_interval: ${update_time}
     icon: "mdi:flash-circle"
   - platform: template
     name: ${disp_name} Total Watts
@@ -100,11 +100,11 @@ sensor:
     filters:
       - multiply: 0.001
     unit_of_measurement: kWh
-    
+
 time:
   - platform: sntp
-    id: sntp_time    
-    
+    id: sntp_time
+
 switch:
   - platform: restart
-    name: ${disp_name} Restart     
+    name: ${disp_name} Restart
